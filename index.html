@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakwatsa</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./lakwatsa.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <h1 class="fw-bold">Lakwatsa</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Where to?
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./baguio.html">Baguio</a></li>
+                            <li><a class="dropdown-item" href="./elyu.html">La Union</a></li>
+                            <li><a class="dropdown-item" href="./sag.html">Sagada</a></li>
+                            <li><a class="dropdown-item" href="./ilocos.html">Ilocos</a></li>
+                            <li><a class="dropdown-item" href="./pangasinan.html">Pangasinan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact & Booking</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-lg p-3 mt-5">
+        <div class="row">
+
+            <div class="col-lg-3 align-self-center d-flex flex-column">
+                <h1 class="display-4 text-start fw-bold ms-5-lg">Saan ka Punta?</h1>
+                <div>
+                    <p class="ms-5-lg fs-4 text-muted">
+                        (Where to?)
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-9">
+
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./baguio.html">
+                                <div class="carousel-baguio">
+                                <div class="carousel-caption">
+                                    <h1 class="display-1 text-start fw-bold">Baguio</h1>
+                                    <h2 class="display-3 text-start fw-bold">Baguio</h2>
+                                    <p class="text-start">Baguio is an amazing destination in the Philippines. It is
+                                        because this is one of the places in the Philippines where the weather is cold
+                                        despite the fact that Philippines is a tropical country, which simply means the
+                                        country has a warm or hot climate.</p>
+                                    </div>          
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="./elyu.html">
+                            <div class="carousel-lu">
+                            <div class="carousel-caption">
+                                <h1 class="display-1 text-start fw-bold">La Union</h1>
+                                <h2 class="display-3 text-start fw-bold">La Union</h2>
+                                <p class="text-start">A province with rich history that is known for its
+                                    ancient
+                                    churches and pilgrimage sites.</p>
+                                    </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="./sag.html">
+                        <div class="carousel-sag">
+                        <div class="carousel-caption">
+                            <h1 class="display-1 text-start fw-bold">Sagada</h1>
+                            <h2 class="display-3 text-start fw-bold">Sagada</h2>
+                            <p class="text-start">Sagada is known for its scenic and calming mountain valleys, rice
+                                fields, limestone caves, refreshing waterfalls, and cliffs that come with a sea of
+                                clouds
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="./ilocos.html">
+                    <div class="carousel-ilocos">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-start fw-bold">Ilocos</h1>
+                        <h2 class="display-3 text-start fw-bold">Ilocos</h2>
+                        <p class="text-start">Have you ever heard of the place called Pagudpud in the Philippines? It is
+                            one of the most visited tourist spots in Ilocos. Where and what is Pagudpud really like?
+                            Well, before that let me have a bit of introduction first about Ilocos.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href="./pangasinan.html">
+                <div class="carousel-panga">
+                <div class="carousel-caption">
+                    <h1 class="display-1 text-start fw-bold">Pangasinan</h1>
+                    <h2 class="display-3 text-start fw-bold">Pangasinan</h2>
+                    <p class="text-start">Pangasinan is home to many natural wonders, including caves, waterfalls,
+                        mountains, hills, and, of course, its famous white sand beaches.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <p class="display-6 fw-bold">Mga Puntahing Lugar</p>
+            <p class="text-muted">(Tourist Spots)</p>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1 row-cols-1 g-3">
+
+            <div class="col">
+
+                <div class="hover-box1">
+
+                    <a href="./baguio.html#burnham" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Burnham Park</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Burnham Park is one of the most popular tourist spots in Baguio and it is
+                                        where you want to bring your family for a day bonding trip.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="hover-box2">
+                    <a href="./elyu.html#urbz" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Urbiztondo Beach</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Urbiztondo Beach in San Juan is known as the Surfing Capital of Northern
+                                        Philippines, with surfing seasons typically falling July to October and
+                                        November to March.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="hover-box3">
+                    <a href="./sag.html#echo" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Echo Valley Hanging Coffins</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        The most popular and most iconic spot in Sagada Mountain Province is the
+                                        Hanging Coffins at Echo Valley. Igorots in Sagada follow a unique burial
+                                        ritual.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hover-box4">
+                    <a href="./ilocos.html#pagud" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Pagudpud Beach</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Pagudpud is one of the tourist spots in Ilocos Norte. Saud Beach in Pagudpud
+                                        is a really famous destination in Ilocos Norte and has been marked as the
+                                        “haven for travelers”
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hover-box5">
+                    <a href="./pangasinan.html#hundred" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Hundred Islands</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        The Pangasinan Hundred Island National Park in Alaminos is the top
+                                        Pangasinan destination for locals and international travelers alike. The
+                                        protected area boasts of 123 islets scattered across Lingayen Gulf
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <p class="display-6 fw-bold">Mga Pagkain</< /p>
+            <p class="text-muted">(Food)</p>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1 row-cols-1 g-3">
+
+            <div class="col">
+
+                <div class="hover-box6">
+
+                    <a href="./baguio.html#peanut-brittle" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Peanut Brittle and Choco Flakes</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Typical souvenirs travelers buy in bundles are Peanut brittles and Choco flakes
+                                        which are easily found everywhere. It is packaged into a plastic jar, mostly
+                                        with yellow lids.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="hover-box7">
+                    <a href="./elyu.html#halo" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Halo-Halo de Iloko</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        In the Halo Halo de Iloko restaurant of San Fernando, you can taste one of the
+                                        best halo halos in the country.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="hover-box8">
+                    <a href="./sag.html#pinik" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Pinikpikan</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        A trip to Sagada won’t be complete without tasting their local dishes. Without a
+                                        doubt, Pinikpikan is on top of the list. Back when they still used smaller
+                                        native chicken, it’s called “killing-me-softly chicken” because of the slow —
+                                        and painful — way of preparing the chicken.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hover-box9">
+                    <a href="./ilocos.html#longganisa" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Longganisa</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Longganisa is an emblematic Ilocos food. These pork sausages are the star at any
+                                        Ilocano table. The sausages from Vigan are the most famous and they are
+                                        distinctly small and plump.
+
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hover-box10">
+                    <a href="./pangasinan.html#pigar" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Pigar-pigar</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Pigar-pigar is thin beef slices sauteed in onions and cabbage. It is a popular
+                                        pulutan in Dagupan City, Pangasinan. It is also commonly served on top of hot
+                                        rice. Because of its light seasoning, it is usually served with a dipping sauce
+                                        of fresh chili, calamansi juice and soy sauce.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <p class="display-6 fw-bold">Sining</p>
+            <p class="text-muted">(Art)</p>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1 row-cols-1 g-3">
+
+            <div class="col">
+
+                <div class="hover-box11">
+
+                    <a href="./baguio.html#cord-weave" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Cordillera Weaves</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        In the Cordillera, the use of cloth is involved in life from birth to death, in
+                                        sickness and health. A baby is cocooned in cloth. The sick are wrapped and
+                                        healed in it.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="hover-box12">
+                    <a href="./elyu.html#bamb" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Bamboo Crafts</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Bamboo is one of the most useful plants in the world. And the residents of
+                                        Up-Uplas, Sudipen, La Union have been doing bamboo crafts to produce a variety
+                                        of household items such as chairs, tables, lampshades, baskets, and picture
+                                        frames.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="hover-box13">
+                    <a href="./sag.html#patpat" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Patpatayan</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        “Patpatayan” by James Capuyan is a segment of a four-sectioned wood panel
+                                        depicting the spiritual practice of the Kankana-ey tribe gathering at a sacred
+                                        tree grove to pray for protection and blessings of abundance.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hover-box14">
+                    <a href="./ilocos.html#inabel" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Inabel Weaving</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        “Abel” or “inabel” is a fabric customarily made of cotton fiber turned into
+                                        spools of beeswax-brushed yarn & woven in a handloom. From it comes out
+                                        beautiful blankets, pillowcases, tablemats, sweaters & shawls.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hover-box15">
+                    <a href="./pangasinan.html#bolinao" class="text-decoration-none">
+
+                        <div class="overlay">
+
+                            <div class="content d-flex flex-column">
+
+                                <h3 class="flex-grow-1">Bolinao Weaving</h3>
+                                <div class="d-lg-block d-none">
+                                    <p>
+                                        Weaving like religion. On Santiago Island, northeast coast of Bolinao, rests a
+                                        small village called Salud, a peaceful barangay where most of its residents are
+                                        dedicated to weaving the best buri mats,also known as the “Bolinao banig.”
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container mt-5" id="contact">
+        <p class="h1 fw-bold">
+            Samahan ka namin!
+        </p>
+        <p class="text-muted">
+            (Let's Guide you!)
+        </p>
+        
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12 col-lg-6 pt-1">
+                <label for="place">Place</label>
+                <select class="form-select mt-1" aria-label="Default select example">
+                    <option selected disabled>Where do you want to go?</option>
+                    <option value="1">Baguio</option>
+                    <option value="2">La Union</option>
+                    <option value="3">Sagada</option>
+                    <option value="4">Ilocos</option>
+                    <option value="5">Pangasinan</option>
+                  </select>
+            </div>
+            <div class="col-12 col-lg-6">
+                <label for="inputAddress2" class="form-label">Contact Number</label>
+                <input type="text" class="form-control" id="inputAddress2">
+            </div>
+            <div class="col-lg-12">
+            
+            <p class="h3 fw-bold text-center">Booking</p>
+
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">From:</label>
+                <input type="date" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">To</label>
+                <input type="date" class="form-control" id="inputCity">
+            </div>
+            <div class="col-12 mb-5">
+                <button type="submit" class="btn btn-light">Book Now!</button>
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

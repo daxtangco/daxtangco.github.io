@@ -1,0 +1,89 @@
+.nav {
+    --bs-nav-link-color: #6c757d;
+    --bs-nav-link-hover-color: darkgrey;
+    --bs-nav-link-disabled-color: #6c757d;
+    
+}
+.body {
+    background-color: white;
+}
+
+.sag1 img{
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag2 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag3 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag4 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag5 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.sag6 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag7 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.sag8 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag9 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.sag10 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.sag11 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.sag12 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.sag13 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.sag14 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+
+
+.info p {
+    text-align: justify;
+}
+
+.mema {
+    color:white;
+}
