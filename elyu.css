@@ -1,0 +1,85 @@
+.nav {
+    --bs-nav-link-color: #6c757d;
+    --bs-nav-link-hover-color: darkgrey;
+    --bs-nav-link-disabled-color: #6c757d;
+    
+}
+.body {
+    background-color: white;
+}
+
+.elyu1 img{
+    border-radius: 20px;
+    max-height: 400px;
+    width: 100%;
+}
+.elyu2 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu3 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.elyu4 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.elyu5 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu6 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.elyu7 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu8 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.elyu9 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+.elyu10 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu11 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu12 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu13 img {
+    border-radius: 20px;
+    max-height: 350px;
+    width: 100%;
+}
+.elyu14 img {
+    border-radius: 20px;
+    max-height: 300px;
+    width: 100%;
+}
+
+
+.info p {
+    text-align: justify;
+}
