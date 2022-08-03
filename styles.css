@@ -144,3 +144,15 @@ span.clear {
 	top: 4px;
 	box-shadow: 0px 0px #d3545d;
 }
+
+footer {
+    margin: 50px;
+    padding: 20px;
+}
+
+
+p {
+    font-size: 12px;
+    text-align: start;
+    padding: 5px;
+}
